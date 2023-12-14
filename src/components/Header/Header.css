@@ -1,0 +1,53 @@
+.header {
+    background: radial-gradient(rgb(245, 233, 233) 3px, transparent 4px),
+        radial-gradient(rgb(241, 218, 218) 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(
+            45deg,
+            transparent 74px,
+            transparent 75px,
+            #faf3f3 75px,
+            #f8e9e9 76px,
+            transparent 70px,
+            transparent 109px
+        ),
+        linear-gradient(
+            -45deg,
+            transparent 75px,
+            transparent 76px,
+            #f1e1e1 76px,
+            #f3e8e8 77px,
+            transparent 70px,
+            transparent 109px
+        ),
+        #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px,
+        109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900;
+}
+
+.header__box-logo {
+    font-family: "Fuggles", sans-serif;
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.header__logo {
+    width: 60px;
+}
+
+.header__logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header__span {
+    color: #451f1a;
+    font-size: 2.3rem;
+    line-height: 0.9;
+}
+
+/* ------------------------- */
