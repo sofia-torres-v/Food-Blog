@@ -1,0 +1,87 @@
+.aside {
+    background-color: rgba(214, 214, 235, 0.233);
+    padding: 20px;
+    border-radius: 7px 7px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.aside__info {
+    display: grid;
+    gap: 20px;
+}
+
+.aside__info-peru {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.aside__img-peru {
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.aside__text-peru {
+    text-align: center;
+    color: black;
+}
+
+.aside__info-subscription {
+    border: 1px dashed #000;
+    border-radius: 7px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.aside__info-subscription h3 {
+    font-size: 19px;
+}
+
+.aside__inp-suscription {
+    padding: 9px 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.btn__aside {
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(119, 109, 109);
+}
+
+.aside__text-post {
+    color: #000;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.aside__img-posts {
+    width: 80px;
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.box-images {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.img-post {
+    width: 100%;
+    border-radius: 5px;
+}
+@media (min-width: 850px) {
+    .aside {
+        margin-top: 60px;
+        width: 300px;
+    }
+}

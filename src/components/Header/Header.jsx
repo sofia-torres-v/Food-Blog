@@ -1,4 +1,5 @@
 import "./Header.css";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
     return (
@@ -6,7 +7,7 @@ const Header = () => {
             <nav className="navigation">
                 <div className="header__box-logo">
                     <div className="header__logo">
-                        {/* <img src="../images/logo.png" alt="" /> */}
+                        <img src={logo} alt="" />
                     </div>
 
                     <div className="header__span">

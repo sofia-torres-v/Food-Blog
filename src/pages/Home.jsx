@@ -1,14 +1,19 @@
 import Header from "../components/Header/Header.jsx";
+import Section from "../components/Section/Section.jsx";
+import Aside from "../components/Aside/Aside.jsx";
 import Footer from "../components/Footer/Footer.jsx";
-import Main from "../components/main/main.jsx";
+import "./Home.css";
 
 const Home = () => {
     return (
-        <div>
+        <>
             <Header />
-            <Main />
+            <div className="container">
+                <Section />
+                <Aside />
+            </div>
             <Footer />
-        </div>
+        </>
     );
 };
 
