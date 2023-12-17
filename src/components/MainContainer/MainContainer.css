@@ -48,4 +48,8 @@
     .main {
         grid-template-columns: 1fr 1fr;
     }
+    /* Estilo condicional para una columna */
+    .one-columns {
+        grid-template-columns: 1fr;
+    }
 }

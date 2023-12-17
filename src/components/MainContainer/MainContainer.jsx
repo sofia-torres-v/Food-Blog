@@ -1,24 +1,26 @@
-import "./section.css";
+import "./MainContainer.css";
 import ceviche from "../../assets/ceviche.webp";
 import anticuchos from "../../assets/anticuchos.jpg";
 import picarones from "../../assets/picarones.webp";
 import rocotoRelleno from "../../assets/rocotoRelleno.jpg";
-import papaHuancaina from "../../assets/causa.jpg";
+import papaHuancaina from "../../assets/papahuancaina.jpg";
 import causa from "../../assets/causa.jpg";
+import PropTypes from "prop-types";
 
-const Section = () => {
+const MainContainer = ({ columns }) => {
     return (
-        <main className="main">
+        <main className={`main ${columns === 1 ? "one-columns" : ""}`}>
             <article>
                 <div className="article__box-img">
-                    <img className="article__img" src={ceviche} alt="" />
+                    <img className="article__img" src={rocotoRelleno} alt="" />
                 </div>
 
-                <h2 className="article__subtitle-post">Ceviche</h2>
+                <h2 className="article__subtitle-post">Rocoto Relleno</h2>
                 <p className="article__fecha">Publicado / Julio 2023</p>
+
                 <p>
-                    El alma del ceviche es la sabrosísima leche de tigre que es
-                    la mezcla de jugo de limón en el que cocinamos el pescado...
+                    llDistinctio praesentium consequatur pariatur accusantium
+                    saepe asperiores eius natus doloribus possimus veritatis?...
                 </p>
 
                 <button className="btn__article">Leer mas</button>
@@ -53,18 +55,16 @@ const Section = () => {
 
                 <button className="btn__article">Leer mas</button>
             </article>
-
             <article>
                 <div className="article__box-img">
-                    <img className="article__img" src={rocotoRelleno} alt="" />
+                    <img className="article__img" src={ceviche} alt="" />
                 </div>
 
-                <h2 className="article__subtitle-post">Rocoto Relleno</h2>
+                <h2 className="article__subtitle-post">Ceviche</h2>
                 <p className="article__fecha">Publicado / Julio 2023</p>
-
                 <p>
-                    llDistinctio praesentium consequatur pariatur accusantium
-                    saepe asperiores eius natus doloribus possimus veritatis?...
+                    El alma del ceviche es la sabrosísima leche de tigre que es
+                    la mezcla de jugo de limón en el que cocinamos el pescado...
                 </p>
 
                 <button className="btn__article">Leer mas</button>
@@ -103,4 +103,8 @@ const Section = () => {
     );
 };
 
-export default Section;
+MainContainer.propTypes = {
+    columns: PropTypes.number.isRequired,
+};
+
+export default MainContainer;

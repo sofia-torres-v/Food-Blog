@@ -1,12 +1,14 @@
 .footer {
-    background-color: #3f130f;
+    /* background-color: #3f130f; */
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     border-top: 1px solid rgb(185, 175, 175);
     padding: 50px 0 0;
     gap: 30px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .footer__box-icons {
@@ -22,11 +24,12 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    border: 1px solid rgb(202, 194, 194);
+    border: 1px solid #3f130f;
     border-radius: 50%;
 }
 
 .footer__icon {
+    filter: invert(1);
     font-size: 2rem;
     color: white;
 }
@@ -34,7 +37,5 @@
 .footer__text {
     width: 100%;
     text-align: center;
-    color: white;
-    padding: 20px;
-    border-top: 1px solid rgba(128, 128, 128, 0.381);
+    color: #000;
 }
