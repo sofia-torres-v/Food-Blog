@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./pages/home";
-// import Posts from './pages/posts.jsx'
-// import Contact from './pages/contact.jsx'
+import Post from "./pages/Post";
 import "./index.css";
-// Importar todos los estilos de Boxicons
 import "boxicons";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -14,14 +12,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
     },
-    // {
-    //   path: "/post",
-    //   element: <Posts />,
-    // },
-    // {
-    //   path: "/contact",
-    //   element: <Contact />,
-    // },
+    {
+        path: "/post",
+        element: <Post />,
+    },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
