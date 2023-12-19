@@ -9,11 +9,11 @@ const Aside = () => {
         <aside className="aside">
             <div className="aside__info">
                 <div className="aside__info-peru">
-                    <h3>La gastronomía Peruana</h3>
+                    <h3 className="aside__title">Gastronomía Peruana</h3>
                     <img className="aside__img-peru" src={marcaPeru} alt="" />
 
                     <p className="aside__text-peru">
-                        La gastronomía peruana es reconocida como una de las más
+                        La Gastronomía Peruana es reconocida como una de las más
                         variadas y ricas del mundo.
                     </p>
                 </div>
@@ -28,7 +28,7 @@ const Aside = () => {
                     <button className="btn__aside">Suscribirse</button>
                 </div>
                 <div className="aside__post">
-                    <h3 className="aside__text-post">ÚLTIMAS RECETAS</h3>
+                    <h3 className="aside__text-post">Últimas recetas</h3>
                     <p>
                         Tenemos las ultimas recetas que hemos probado y queremos
                         ofrecerte exclusivamente a ti.

@@ -24,7 +24,7 @@ const Footer = () => {
                         <i className="bx bxl-facebook footer__icon"></i>
                     </div>
                     <div className="icon-box">
-                        <i className="bx bxl-instagram footer__icon"></i>
+                        <i className="bx bxl-instagram-alt footer__icon"></i>
                     </div>
                     <div className="icon-box">
                         <i className="bx bxl-twitter footer__icon"></i>
