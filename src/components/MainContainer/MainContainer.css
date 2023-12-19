@@ -47,6 +47,7 @@
 @media (min-width: 850px) {
     .main {
         grid-template-columns: 1fr 1fr;
+        margin-top: 50px 0;
     }
     /* Estilo condicional para una columna */
     .one-columns {
